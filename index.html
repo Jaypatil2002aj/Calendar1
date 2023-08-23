@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Faculty Holiday Application</title>
+  <h1>Faculty Hoilday Calendar</h1>
+
+</head>
+<body>
+  <header>
+    <!-- Logo and navigation -->
+    <img id="logo" src="./new logo.svg" alt="Logo">
+  </header>
+  <main>
+    <section class="calendar-section">
+      <div class="calendar">
+        <!-- Calendar content -->
+        <div class="header">
+          <button id="prevMonth">&lt;</button>
+          <h2 id="currentMonthYear"></h2>
+          <button id="nextMonth">&gt;</button>
+        </div>
+        <div class="days" id="calendarDays"></div>
+      </div>
+    </section>
+    <section class="form-section">
+      <div class="holiday-form">
+        <h3>Apply for Holiday</h3>
+        <p>Select up to 5 days as holidays:</p>
+        <form id="holidayForm">
+          <input type="text" id="holidayReason" placeholder="Reason for holiday" required>
+          <button type="submit">Submit Application</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- Footer content -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
